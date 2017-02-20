@@ -1,0 +1,25 @@
+<?php if($current_options['top_social']) {?>
+   <ul class="top-social">
+        <?php if($current_options['top_social_twitter'] != ''){ ?>
+             <li><a href="<?php echo $current_options['top_social_twitter'] ?>"><span class="icon-social mdi mdi-twitter"></span></a></li>
+        <?php }?>
+        <?php if($current_options['top_social_facebook'] != ''){ ?>
+            <li><a href="<?php echo $current_options['top_social_facebook'] ?>"><span class="icon-social mdi mdi-facebook"></span></a></li>
+        <?php }?>
+        <?php if($current_options['top_social_youtube'] != ''){ ?>
+            <li><a href="<?php echo $current_options['top_social_youtube'] ?>"><span class="icon-social mdi mdi-youtube-play"></span></a></li>
+        <?php }?>
+        <?php if($current_options['top_social_linkedin'] != ''){ ?>
+        <li><a href="<?php echo $current_options['top_social_linkedin'] ?>"><span class="icon-social mdi mdi-linkedin"></span></a></li>
+        <?php }?>
+        <?php if($current_options['top_social_pinterest'] != ''){ ?>
+            <li><a href="<?php echo $current_options['top_social_pinterest'] ?>"><span class="icon-social mdi mdi-pinterest"></span></a></li>
+        <?php }?>
+        <?php if($current_options['top_social_instagram'] != ''){ ?>
+            <li><a href="<?php echo $current_options['top_social_instagram'] ?>"><span class="icon-social mdi mdi-instagram"></span></a></li>
+        <?php }?>
+        <?php if($current_options['top_social_gplus'] != ''){ ?>
+        <li><a href="<?php echo $current_options['top_social_gplus'] ?>"><span class="icon-social mdi mdi-google-plus"></span></a></li>
+        <?php }?>
+    </ul>
+<?php }?>
